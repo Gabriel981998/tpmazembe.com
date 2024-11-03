@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+   
+  background: black;
+  color: white;
+  margin: 0;
+ 
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  word-wrap: break-word;
+  scroll-behavior: smooth;
+          font-size: 14px;
+        font-size: calc(14px +(100vw - 320px) /(768 - 320)*(14 - 14));
+        line-height: 1.4;
+}
+.font{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+.equipe{
+  background-image: url(./components/images/tpmtogeder.jpg);
+ width: 100%;
+ height: 100%;
+
+}
+.fontmatch{
+  font-family: "Bungee Shade", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.croco{ background-position: center;
+  background-image: url("https://cdn2.bigcommerce.com/n-pktq5q/nlhg8xgd/products/2884/images/11509/CROCODILE_BLACK_2__67708.1680015315.1280.1280.jpg?c=2");
+}
+  
+  .logo {
+    height: 8em;
+ 
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
+
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  .match{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 3px;;
+    font-style: normal;
+
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
